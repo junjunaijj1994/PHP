@@ -1,0 +1,19 @@
+<?php
+$XM=$_GET["XM"];
+$SEX=$_GET["SEX"];
+$ZY=$_GET["ZY"];
+$BZ=$_GET["BZ"];
+$xq=$_GET['xq'];
+	$num=count($xq);
+	$xqbox=" ";
+	for($i=0;$i<$num;$i++)
+	{
+		$xqbox=$xqbox."".$xq[$i];
+	}
+
+echo "姓名：".$XM."<br>";
+echo "性别：".$SEX."<br>";
+echo "专业：".$ZY."<br>";
+echo "备注：".$BZ."<br>";
+echo "兴趣：".$xqbox;
+?>
