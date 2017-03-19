@@ -1,0 +1,11 @@
+<?php
+$uer=$_GET['user'];
+$pwd=$_GET['pwd'];
+if($pwd=="123456"&&$user=="user"){
+    echo "登陆成功";
+    }
+	else{
+	echo "登录失败<br>";
+	echo "<a href='formtext2.php'>返回登陆页面</a>";
+} 
+?>
